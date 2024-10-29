@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the French poem"
@@ -25,10 +26,8 @@
           <input type="submit" class="submit-button" />
         </form>
 
-<div class="poem">
-Come, pretty birds, present your lays,
-<br/>
-And learn to chaunt a goddess praise;
+<div class="poem" id="poem" >
+
 </div>
 </main>
 
